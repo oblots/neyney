@@ -356,7 +356,7 @@
     let letterOpen = false;
 
     // Set your password here (case sensitive)
-    const LETTER_PASSWORD = "soulmate";
+    const LETTER_PASSWORD = "debby";
 
     ribbon.addEventListener('click', function(e) {
       if (!letterOpen) {
@@ -369,7 +369,7 @@
 
     passwordForm.addEventListener('submit', function(e) {
       e.preventDefault();
-      if (pwinput.value.trim() === "debby") {
+      if (pwinput.value.trim() === LETTER_PASSWORD) {
         // Hide rolled letter
         rolledLetter.style.transition = "opacity 0.5s cubic-bezier(.77,.01,.36,1.02)";
         rolledLetter.style.opacity = 0;
