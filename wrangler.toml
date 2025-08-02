@@ -1,0 +1,6 @@
+name = "neyney"
+compatibility_date = "2025-08-02"
+
+# This section is for deploying static assets
+[site]
+bucket = "./"
